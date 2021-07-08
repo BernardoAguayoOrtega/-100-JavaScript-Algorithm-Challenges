@@ -1,0 +1,22 @@
+{
+  "name": "100-javascript-algorithm-challenges",
+  "version": "1.0.0",
+  "description": "JavaScript challenges",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BernardoAguayoOrtega/-100-JavaScript-Algorithm-Challenges.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BernardoAguayoOrtega/-100-JavaScript-Algorithm-Challenges/issues"
+  },
+  "homepage": "https://github.com/BernardoAguayoOrtega/-100-JavaScript-Algorithm-Challenges#readme",
+  "dependencies": {
+    "typescript": "^4.3.5"
+  }
+}
