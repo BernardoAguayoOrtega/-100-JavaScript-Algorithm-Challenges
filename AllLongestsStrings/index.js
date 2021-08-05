@@ -11,8 +11,11 @@ const input = [
 	'Antidisestablishmentarianism',
 ];
 
+const test = ['aba', 'aa', 'ad32', 'ae', 'era', 'reo']
+
 const AllLongestStrings = (input) => {
   const longest = input.reduce((acc, curr) => {
+    console.log(acc, curr)
     return curr.length > acc.length ? curr : acc;
   }, '');
 
@@ -21,4 +24,4 @@ const AllLongestStrings = (input) => {
   return longestStrings;
 }
 
-console.log(AllLongestStrings(input));
+console.log(AllLongestStrings(test));
